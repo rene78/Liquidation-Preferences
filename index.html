@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Liquidation preferences</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+
+<body>
+  <h1>Liquidation preferences</h1>
+  <p>All values in million</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Number of shares</th>
+        <th>Invested sum</th>
+        <th>Payout</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="share-class"></td>
+        <td class="n-shares"></td>
+        <td class="invested-sum"></td>
+        <td class="payout"></td>
+      </tr>
+      <tr>
+        <td class="share-class"></td>
+        <td class="n-shares"></td>
+        <td class="invested-sum"></td>
+        <td class="payout"></td>
+      </tr>
+      <tr>
+        <td class="share-class"></td>
+        <td class="n-shares"></td>
+        <td class="invested-sum"></td>
+        <td class="payout"></td>
+      </tr>
+      <tr>
+        <td class="share-class"></td>
+        <td class="n-shares"></td>
+        <td class="invested-sum"></td>
+        <td class="payout"></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td class="total-n-shares"></td>
+        <td class="total-invested-sum"></td>
+        <td class="total-payout"></td>
+      </tr>
+    </tfoot>
+  </table>
+  <label for="exitValueSelect">Exit price </label>
+  <select id="exit-value-select" title="Select exit value" onchange="checkPayout()"></select>
+  <div class="color-field common">Common shares</div>
+  <div class="color-field capped">Capped</div>
+  <p>Known error: The series C return for payout 47Mio is wrong. Should be able get it fixed by rerunning a modified "checkPayout()".</p>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

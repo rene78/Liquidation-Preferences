@@ -1,0 +1,26 @@
+thead, tfoot {
+  background-color: #F0F8FF;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+.common {
+  background-color: rgb(224, 165, 165);
+}
+
+.capped {
+  background-color: rgb(145, 145, 204);
+}
+
+.color-field {
+  width: 200px;
+  height: 20px;
+}
+
+#exit-value-select {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
