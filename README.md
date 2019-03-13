@@ -3,4 +3,6 @@ Website: [Liquidation Preferences](https://rene78.github.io/Liquidation-Preferen
 
 Quick and dirty solution for the coding challenge of [Ledgy](https://gist.github.com/morloy/40bc8469cef175c7607a437ac37d4110)
 
+![alt text][logo]
 
+[logo]: /uml.png "UML"
