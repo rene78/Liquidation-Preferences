@@ -24,3 +24,10 @@ tr:nth-child(even) {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+.github {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  opacity: 0.5;
+}
